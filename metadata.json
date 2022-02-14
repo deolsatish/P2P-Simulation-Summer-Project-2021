@@ -1,0 +1,55 @@
+{
+    "appliances": [
+        {
+            "appliance_name": "refrigerator1",
+            "type": "continuous",
+            "data": "refrigerator1.csv",
+            "event_start_dt": "2019-08-29-00-00-00",
+            "event_end_dt": "2019-08-30-00-00-00",
+            "house_id": 1240,
+            "source": "pecan dataset"
+        },
+        {
+            "appliance_name": "microwave1",
+            "type": "discrete",
+            "data": "microwave1.csv",
+            "event_start_dt": "2019-06-03-11-31-00",
+            "event_end_dt": "2019-06-03-11-36-00",
+            "power": "1000watts",
+            "baseline": 0.003,
+            "data_options": "RawData",
+            "house_id": 1240,
+            "source": "pecan dataset"
+        },
+        {
+            "appliance_name": "clotheswasher1",
+            "type": "discrete",
+            "data": "clotheswasher1.csv",
+            "event_start_dt": "2019-05-23-09-51-00",
+            "event_end_dt": "2019-05-23-14-28-00",
+            "power": "1000watts",
+            "baseline": 0.003,
+            "data_options": "RawData",
+            "house_id": 1240,
+            "source": "pecan dataset"
+        },
+        {
+            "appliance_name": "heater1",
+            "type": "continuous",
+            "data": "heater1.csv",
+            "event_start_dt": "2019-10-14-00-00-00",
+            "event_end_dt": "2019-10-15-00-00-00",
+            "house_id": 1240,
+            "source": "pecan dataset"
+        }
+    ],
+    "format": {
+        "period": "24 hours",
+        "frequency": "1min"
+    },
+    "environment": {
+        "month": "June",
+        "Latitude": 23.45,
+        "Longitutde": 67.7
+    }
+}
